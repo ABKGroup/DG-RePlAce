@@ -1,0 +1,193 @@
+OpenROAD v2.0-11165-gc0693986b 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: ./Nangate45/Nangate45_tech.lef
+[INFO ODB-0223]     Created 22 technology layers
+[INFO ODB-0224]     Created 27 technology vias
+[INFO ODB-0226] Finished LEF file:  ./Nangate45/Nangate45_tech.lef
+[INFO ODB-0222] Reading LEF file: ./Nangate45/Nangate45.lef
+[WARNING ODB-0217] duplicate VIARULE (Via1Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via1Array-1) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via1Array-2) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via1Array-3) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via1Array-4) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via2Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via2Array-1) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via2Array-2) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via2Array-3) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via2Array-4) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via3Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via3Array-1) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via3Array-2) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via4Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via5Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via6Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via7Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via8Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via9Array-0) ignoring...
+[INFO ODB-0394] Duplicate site FreePDK45_38x28_10R_NP_162NW_34O in Nangate45 already seen in Nangate45_tech
+[INFO ODB-0225]     Created 135 library cells
+[INFO ODB-0226] Finished LEF file:  ./Nangate45/Nangate45.lef
+[INFO ODB-0222] Reading LEF file: ./Nangate45/fake_macros.lef
+[INFO ODB-0225]     Created 5 library cells
+[INFO ODB-0226] Finished LEF file:  ./Nangate45/fake_macros.lef
+[WARNING STA-0160] ./Nangate45/fake_macros.lib line 32, default_max_transition is 0.0.
+[INFO ODB-0127] Reading DEF file: mp_test1.def
+[INFO ODB-0128] Design: mp_test1
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[INFO ODB-0252]     Updated 8 pins.
+[INFO ODB-0254]     Updated 23 nets and 32 connections.
+[INFO ODB-0134] Finished DEF file: mp_test1.def
+dataflow_flag 0
+cluster_constraint_flag 0
+GpuReplace :: doInitialPlace
+[InitialPlace]  Design has fixed macros.
+[InitialPlace]  Use CG-based initial placement.
+[INFO] clusterFlag = 0
+[INFO] dataflowFlag = 0
+[INFO] datapathFlag = 0
+[INFO] clusterConstraintFlag = 0
+[INFO] virtualIter = 0
+[INFO] numHops = 0
+[INFO] haloWidth = 0
+[Time Info] The runtime for dataflow extraction is 3.51e-07
+finish creating the instances
+finish cluster
+finish FFs
+finish nets
+ignore Net 6
+finush virtual nets for clusters
+done
+Virtual Net Factor = 1
+numNets_ = 17
+NumInstances: 10
+NumPlaceInstances: 10
+NumFixedInstances: 0
+NumDummyInstances: 0
+DieAreaLxLy: 0.00 0.00
+DieAreaUxUy: 450.00 450.00
+CoreAreaLxLy: 4.94 4.20
+CoreAreaUxUy: 444.98 443.80
+CoreArea: 193441.58
+NonPlaceInstsArea: 0.00
+PlaceInstsArea: 166000.00
+StdInstsArea: 0.00
+MacroInstsArea: 166000.00
+Util(%): 85.81
+[GpuPlacerBase] totalFillerArea = 76836438016
+[GpuPlacerBase] FillerInit : NumFillerCells = 0
+[GpuPlacerBase] FillerInit : FillerCellSize = 200000 , 273333
+placeInstsArea_ = 664000000000
+numInsts_ 10
+isSetBinCnt_ =  0
+binSizeX_ = 440040
+binSizeY_ = 439600
+binCntX_ = 2
+binCntY_ = 2
+numBins = 4
+targetDensity_ = 0.7
+[InitialPlace]  Iter: 1 CG residual: 0.00000004
+[InitialPlace]  Iter: 2 CG residual: 0.00000001
+[InitialPlace]  Iter: 3 CG residual: 0.00000000
+[InitialPlace]  Iter: 4 CG residual: 0.00000000
+[InitialPlace]  Iter: 5 CG residual: 0.00000007
+GpuReplace :: doNesterovPlace
+GpuReplace :: initNesterovPlace 
+[INFO] clusterFlag = 0
+[INFO] dataflowFlag = 0
+[INFO] datapathFlag = 0
+[INFO] clusterConstraintFlag = 0
+[INFO] virtualIter = 0
+[INFO] numHops = 0
+[INFO] haloWidth = 0
+[Time Info] The runtime for dataflow extraction is 1.8e-07
+finish creating the instances
+finish cluster
+finish FFs
+finish nets
+ignore Net 6
+finush virtual nets for clusters
+done
+Virtual Net Factor = 1
+numNets_ = 17
+NumInstances: 10
+NumPlaceInstances: 10
+NumFixedInstances: 0
+NumDummyInstances: 0
+DieAreaLxLy: 0.00 0.00
+DieAreaUxUy: 450.00 450.00
+CoreAreaLxLy: 4.94 4.20
+CoreAreaUxUy: 444.98 443.80
+CoreArea: 193441.58
+NonPlaceInstsArea: 0.00
+PlaceInstsArea: 166000.00
+StdInstsArea: 0.00
+MacroInstsArea: 166000.00
+Util(%): 85.81
+[GpuPlacerBase] totalFillerArea = 76836438016
+[GpuPlacerBase] FillerInit : NumFillerCells = 0
+[GpuPlacerBase] FillerInit : FillerCellSize = 200000 , 273333
+placeInstsArea_ = 664000000000
+numInsts_ 10
+isSetBinCnt_ =  0
+binSizeX_ = 440040
+binSizeY_ = 439600
+binCntX_ = 2
+binCntY_ = 2
+numBins = 4
+targetDensity_ = 0.7
+Finish creating placer database
+NesterovPlace initialization starts
+[WirelengthOp] Start Initialization.
+[WirelengthOp] Initialization Succeed.
+[INFO] DREAMPlaceFlag = 0
+[DensityOp] Start Initialization.
+[PoissonSolver] Start PoissonSolver Initialization!
+[CUDA-POISSON] Setup for CUDA Kernel.
+[CUDA-POISSON] Finish Setup.
+[PoissonSolver] PoissonSolver is initialized!
+[DensityOp] Initialization Succeed.
+Initialization time = 0.659806
+prevHpwl_ = 4149903
+totalSumOverflow_ = 0.036871
+totalBaseWireLengthCoeff = 5.68414e-07
+averageOverflow_ = 0.036871
+baseWireLengthCoef_ = 5.68414e-07
+wireLengthGradSum_ = 16.9267
+densityGradSum_ = 9.12892e+10
+wireLengthGradSum_ = 16.9321
+densityGradSum_ = 9.12334e+10
+NesterovPlace initialization ends
+Finish initNesterovPlace()
+wireLengthGradSum_ = 17.954
+densityGradSum_ = 5.95072e+10
+wireLengthGradSum_ = 12.5326
+densityGradSum_ = 7.33111e+10
+wireLengthGradSum_ = 12.6272
+densityGradSum_ = 7.38866e+10
+[NesterovSolve] Iter: 1 overflow: 0.017361 HPWL: 4070037  densityPenalty: 1.62054e-14
+npVars_.targetOverflow = 0.01
+wireLengthGradSum_ = 12.0257
+densityGradSum_ = 5.52354e+10
+npVars_.targetOverflow = 0.01
+[NesterovSolve] Finished with Overflow: 0.000000
+NestrovSolve converged
+********************************************************************************
+NesterovPlace runtime analysis
+Wirelength runtime : 0.00013351 sec
+Density runtime : 0.000370744 sec
+FFT runtime = 0.000769047 sec
+updateGradientRuntime1 = 7.2284e-05 sec
+updateGradientRuntime2 = 0.000988316 sec
+updateGradientRuntime3 = 0.000988526 sec
+updateGradientRuntime4 = 0.000988716 sec
+updateGradientRuntime = 0.00103228 sec
+[Time Info] The runtime for non-linear optimization is 0.00180079
+the nesterov placement runtime is 0.664962

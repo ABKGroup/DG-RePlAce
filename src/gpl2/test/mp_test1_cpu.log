@@ -1,0 +1,98 @@
+OpenROAD v2.0-11164-gd005be088 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: ./Nangate45/Nangate45_tech.lef
+[INFO ODB-0223]     Created 22 technology layers
+[INFO ODB-0224]     Created 27 technology vias
+[INFO ODB-0226] Finished LEF file:  ./Nangate45/Nangate45_tech.lef
+[INFO ODB-0222] Reading LEF file: ./Nangate45/Nangate45.lef
+[WARNING ODB-0217] duplicate VIARULE (Via1Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via1Array-1) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via1Array-2) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via1Array-3) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via1Array-4) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via2Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via2Array-1) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via2Array-2) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via2Array-3) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via2Array-4) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via3Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via3Array-1) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via3Array-2) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via4Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via5Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via6Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via7Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via8Array-0) ignoring...
+[WARNING ODB-0217] duplicate VIARULE (Via9Array-0) ignoring...
+[INFO ODB-0394] Duplicate site FreePDK45_38x28_10R_NP_162NW_34O in Nangate45 already seen in Nangate45_tech
+[INFO ODB-0225]     Created 135 library cells
+[INFO ODB-0226] Finished LEF file:  ./Nangate45/Nangate45.lef
+[INFO ODB-0222] Reading LEF file: ./Nangate45/fake_macros.lef
+[INFO ODB-0225]     Created 5 library cells
+[INFO ODB-0226] Finished LEF file:  ./Nangate45/fake_macros.lef
+[WARNING STA-0160] ./Nangate45/fake_macros.lib line 32, default_max_transition is 0.0.
+[INFO ODB-0127] Reading DEF file: mp_test1.def
+[INFO ODB-0128] Design: mp_test1
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[WARNING ODB-0437] Pin directions are ignored from floorplan DEF files.
+[INFO ODB-0252]     Updated 8 pins.
+[INFO ODB-0254]     Updated 23 nets and 32 connections.
+[INFO ODB-0134] Finished DEF file: mp_test1.def
+[INFO GPL-0002] DBU: 2000
+[INFO GPL-0003] SiteSize: 380 2800
+[INFO GPL-0004] CoreAreaLxLy: 9880 8400
+[INFO GPL-0005] CoreAreaUxUy: 889960 887600
+[INFO GPL-0006] NumInstances: 10
+[INFO GPL-0007] NumPlaceInstances: 10
+[INFO GPL-0008] NumFixedInstances: 0
+[INFO GPL-0009] NumDummyInstances: 0
+[INFO GPL-0010] NumNets: 23
+[INFO GPL-0011] NumPins: 40
+[INFO GPL-0012] DieAreaLxLy: 0 0
+[INFO GPL-0013] DieAreaUxUy: 900000 900000
+[INFO GPL-0014] CoreAreaLxLy: 9880 8400
+[INFO GPL-0015] CoreAreaUxUy: 889960 887600
+[INFO GPL-0016] CoreArea: 773766336000
+[INFO GPL-0017] NonPlaceInstsArea: 0
+[INFO GPL-0018] PlaceInstsArea: 664000000000
+[INFO GPL-0019] Util(%): 85.81
+[INFO GPL-0020] StdInstsArea: 0
+[INFO GPL-0021] MacroInstsArea: 664000000000
+[InitialPlace]  Iter: 1 CG residual: 0.00000004 HPWL: 20775240
+[InitialPlace]  Iter: 2 CG residual: 0.00000001 HPWL: 21304765
+[InitialPlace]  Iter: 3 CG residual: 0.00000000 HPWL: 21594435
+[InitialPlace]  Iter: 4 CG residual: 0.00000000 HPWL: 21701045
+[InitialPlace]  Iter: 5 CG residual: 0.00000007 HPWL: 21729456
+[INFO GPL-0031] FillerInit: NumGCells: 10
+[INFO GPL-0032] FillerInit: NumGNets: 23
+[INFO GPL-0033] FillerInit: NumGPins: 40
+[INFO GPL-0023] TargetDensity: 0.70
+[INFO GPL-0024] AveragePlaceInstArea: 66400000000
+[INFO GPL-0025] IdealBinArea: 94857150464
+[INFO GPL-0026] IdealBinCnt: 8
+[INFO GPL-0027] TotalBinArea: 773766336000
+[INFO GPL-0028] BinCnt: 2 2
+[INFO GPL-0029] BinSize: 440040 439600
+[INFO GPL-0030] NumBins: 4
+prevHpwl_ = 4149903
+totalSumOverflow_ = 0.036871
+totalBaseWireLengthCoeff = 5.68414e-07
+averageOverflow_ = 0.036871
+baseWireLengthCoef_ = 5.68414e-07
+WireLengthGradSum: 16.9258
+DensityGradSum: 9.12892e+10
+WireLengthGradSum: 16.9308
+DensityGradSum: 9.12474e+10
+WireLengthGradSum: 14.8132
+DensityGradSum: 6.39551e+10
+WireLengthGradSum: 12.4575
+DensityGradSum: 7.1305e+10
+[NesterovSolve] Iter: 1 overflow: 0.0129839 HPWL: 4067504
+[NesterovSolve] Finished with Overflow: 0.012984

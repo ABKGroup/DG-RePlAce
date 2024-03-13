@@ -1,0 +1,180 @@
+{
+  "classes_dir": "schema",
+  "iterators":[
+    {
+      "name": "dbModuleInstItr",
+      "parentObject": "dbInst",
+      "tableName": "inst_tbl",
+      "reversible": "true",
+      "orderReversed": "true",
+      "sequential": 0,
+      "includes": ["dbModule.h"]
+    },
+    {
+      "name": "dbModuleModInstItr",
+      "parentObject": "dbModInst",
+      "tableName": "modinst_tbl",
+      "reversible": "true",
+      "orderReversed": "true",
+      "sequential": 0,
+      "includes": ["dbModule.h"]
+    },
+    {
+      "name": "dbGroupModInstItr",
+      "parentObject": "dbModInst",
+      "tableName": "modinst_tbl",
+      "reversible": "true",
+      "orderReversed": "true",
+      "sequential": 0,
+      "includes": ["dbGroup.h"]
+    },
+    {
+      "name": "dbGroupItr",
+      "parentObject": "dbGroup",
+      "tableName": "group_tbl",
+      "reversible": "true",
+      "orderReversed": "true",
+      "sequential": 0
+    },
+    {
+      "name": "dbRegionGroupItr",
+      "parentObject": "dbGroup",
+      "tableName": "group_tbl",
+      "reversible": "true",
+      "orderReversed": "true",
+      "sequential": 0
+    },
+    {
+      "name": "dbGroupInstItr",
+      "parentObject": "dbInst",
+      "tableName": "inst_tbl",
+      "reversible": "true",
+      "orderReversed": "true",
+      "sequential": 0,
+      "includes": ["dbGroup.h"]
+    },
+    {
+      "name": "dbGuideItr",
+      "parentObject": "dbGuide",
+      "tableName": "guide_tbl",
+      "reversible": "true",
+      "orderReversed": "true",
+      "sequential": 0
+    },
+    {
+      "name": "dbNetTrackItr",
+      "parentObject": "dbNetTrack",
+      "tableName": "net_tracks_tbl",
+      "reversible": "true",
+      "orderReversed": "true",
+      "sequential": 0
+    }
+  ],
+  "relations":[
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerCutClassRule",
+      "type":"1_n",
+      "tbl_name":"cut_class_rules_tbl_",
+      "hash":true
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerSpacingEolRule",
+      "type":"1_n",
+      "tbl_name":"spacing_eol_rules_tbl_"
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerCutSpacingRule",
+      "type":"1_n",
+      "tbl_name":"cut_spacing_rules_tbl_"
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerMinStepRule",
+      "type":"1_n",
+      "tbl_name":"minstep_rules_tbl_"
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerCornerSpacingRule",
+      "type":"1_n",
+      "tbl_name":"corner_spacing_rules_tbl_"
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerSpacingTablePrlRule",
+      "type":"1_n",
+      "tbl_name":"spacing_table_prl_rules_tbl_"
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerCutSpacingTableOrthRule",
+      "type":"1_n",
+      "tbl_name":"cut_spacing_table_orth_tbl_"
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerCutSpacingTableDefRule",
+      "type":"1_n",
+      "tbl_name":"cut_spacing_table_def_tbl_"
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerCutEnclosureRule",
+      "type":"1_n",
+      "tbl_name":"cut_enc_rules_tbl_"
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerEolExtensionRule",
+      "type":"1_n",
+      "tbl_name":"eol_ext_rules_tbl_"
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerArraySpacingRule",
+      "type":"1_n",
+      "tbl_name":"array_spacing_rules_tbl_"
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerEolKeepOutRule",
+      "type":"1_n",
+      "tbl_name":"eol_keep_out_rules_tbl_"
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerWidthTableRule",
+      "type":"1_n",
+      "tbl_name":"width_table_rules_tbl_"
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerMinCutRule",
+      "type":"1_n",
+      "tbl_name":"min_cuts_rules_tbl_"
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerAreaRule",
+      "type":"1_n",
+      "tbl_name":"area_rules_tbl_"
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerForbiddenSpacingRule",
+      "type":"1_n",
+      "tbl_name":"forbidden_spacing_rules_tbl_",
+      "schema":"db_schema_lef58_forbidden_spacing"
+    },
+    {
+      "first":"dbTechLayer",
+      "second":"dbTechLayerKeepOutZoneRule",
+      "type":"1_n",
+      "tbl_name":"keepout_zone_rules_tbl_",
+      "schema":"db_schema_keepout_zone"
+    }
+  ]
+}

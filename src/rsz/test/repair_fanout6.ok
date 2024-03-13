@@ -1,0 +1,26 @@
+[INFO ODB-0222] Reading LEF file: sky130hd/sky130hd.tlef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0226] Finished LEF file:  sky130hd/sky130hd.tlef
+[INFO ODB-0222] Reading LEF file: sky130hd/sky130hd_std_cell.lef
+[INFO ODB-0225]     Created 437 library cells
+[INFO ODB-0226] Finished LEF file:  sky130hd/sky130hd_std_cell.lef
+[INFO ODB-0128] Design: test
+[INFO ODB-0130]     Created 8002 pins.
+[INFO ODB-0131]     Created 8001 components and 40005 component-terminals.
+[INFO ODB-0133]     Created 8003 nets and 24003 connections.
+[INFO RSZ-0035] Found 1 fanout violations.
+[INFO RSZ-0038] Inserted 508 buffers in 1 nets.
+[INFO RSZ-0039] Resized 509 instances.
+worst slack -8.65
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+fanout1/X                                20     20      0 (MET)
+
+[INFO RSZ-0094] Found 6400 endpoints with setup violations.
+[INFO RSZ-0045] Inserted 17 buffers, 1 to split loads.
+[INFO RSZ-0041] Resized 67 instances.
+[WARNING RSZ-0062] Unable to repair all setup violations.
+worst slack -3.10
