@@ -1713,7 +1713,11 @@ void PlacerBaseCommon::init()
 
 void PlacerBaseCommon::updateVirtualWeightFactor(int iter) {
   if (clusterFlag_ == false) {
-    virtualWeightFactor_ = initVirtualWeightFactor_ / std::exp(iter);
+    if (isnan(std::exp(iter) == true)) {
+      virtualWeightFactor_ = 0.0;
+    } else {
+      virtualWeightFactor_ = initVirtualWeightFactor_ / std::exp(iter);
+    }
   }
 }
 
